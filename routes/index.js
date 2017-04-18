@@ -11,7 +11,7 @@ router.get('/', function (req, res) {
 
 // Verify or collect State information.
 router.post('/callcongress/welcome', (req, res) => {
-  const response = new twilio.TwimlResponse();
+  const response = new twilio.twiml.VoiceResponse();
   const fromState = req.body.FromState;
 
   if (fromState) {
@@ -63,7 +63,7 @@ router.post('/callcongress/state-lookup', (req, res) => {
 
 // If our state guess is wrong, prompt user for zip code.
 router.get('/callcongress/collect-zip', (req, res) => {
-  const response = new twilio.TwimlResponse();
+  const response = new twilio.twiml.VoiceResponse();
   response.gather({
       numDigits: 5,
       action: '/callcongress/state-lookup',
@@ -108,7 +108,7 @@ function callSenator(req, res) {
     (state) => {
       return state.getSenators().then(
         (senators) => {
-          const response = new twilio.TwimlResponse();
+          const response = new twilio.twiml.VoiceResponse();
           response.say("Connecting you to " + senators[0].name + ". " +
            "After the senator's office ends the call, you will " +
            "be re-directed to " + senators[1].name + ".");
@@ -135,7 +135,7 @@ function callSecondSenator(req, res) {
     }
   }).then(
     (senator) => {
-      const response = new twilio.TwimlResponse();
+      const response = new twilio.twiml.VoiceResponse();
       response.say("Connecting you to " + senator.name + ". ");
       response.dial(senator.phone, {
         action: '/callcongress/goodbye/'
@@ -153,7 +153,7 @@ router.post('/callcongress/call-second-senator/:senator_id',  callSecondSenator)
 
 // Thank user & hang up.
 router.post('/callcongress/goodbye', (req, res) => {
-  const response = new twilio.TwimlResponse();
+  const response = new twilio.twiml.VoiceResponse();
   response.say("Thank you for using Call Congress! " +
                "Your voice makes a difference. Goodbye.");
   response.hangup();

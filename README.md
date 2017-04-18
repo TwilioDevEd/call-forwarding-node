@@ -4,7 +4,7 @@
 
 # Advanced Call Forwarding with Node and Express
 
-[![Build status](https://api.travis-ci.org/TwilioDevEd/call-forwarding-node.svg?branch=master)](https://ci.appveyor.com/project/TwilioDevEd/call-forwarding-node)
+[![Build status](https://api.travis-ci.org/TwilioDevEd/call-forwarding-node.svg?branch=master)](https://travis-ci.org/TwilioDevEd/call-forwarding-node)
 
 Learn how to use [Twilio](https://www.twilio.com) to forward a series of phone calls to your state senators.
 
@@ -17,18 +17,18 @@ To run the app locally, follow these steps:
 ```
 $ npm install
 ```
-5. Run the migrations:
+3. Run the migrations:
 ```
 $ npm run-script migrate
 ```
-6. Seed the database with data:
+4. Seed the database with data:
 ```
 $ npm run-script seed
 ```
 This will load senators.json and US zip codes into your SQLite database.
 Please note: our senators dataset is likely outdated, and we've mapped senators to placeholder phone numbers that are set up with Twilio to read a message and hang up.
 
-7. Expose your application to the internet using [ngrok](https://www.twilio.com/blog/2015/09/6-awesome-reasons-to-use-ngrok-when-testing-webhooks.html). In a separate terminal session, start ngrok with:
+5. Expose your application to the internet using [ngrok](https://www.twilio.com/blog/2015/09/6-awesome-reasons-to-use-ngrok-when-testing-webhooks.html). In a separate terminal session, start ngrok with:
 ```
 $ ngrok http 3000
 ```
@@ -36,7 +36,7 @@ Once you have started ngrok, update your TwiML application's voice URL setting t
 ```
 https://d06f533b.ngrok.io/callcongress/welcome
 ```
-8. Start your development server:
+6. Start your development server:
 ```
 $ npm start
 ```

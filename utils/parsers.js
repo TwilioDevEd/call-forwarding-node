@@ -26,7 +26,7 @@ function senatorsFromJSON(filepath) {
         acc.push(
           models.State.findOne({ where: {name: state} })
                       .get('id')
-                      .then( 
+                      .then(
                         (id) => { 
                           return json[state].map(
                             (senator) => { 
@@ -35,8 +35,8 @@ function senatorsFromJSON(filepath) {
                               return senator;
                             }
                           );
-                        } 
-                      );
+                        }
+                      )
         );
       }
       return acc;
