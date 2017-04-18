@@ -1,0 +1,17 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./db.development.sqlite"
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory:"
+  },
+  "production": {
+    "username": "postgres",
+    "password": null,
+    "database": "call-forwarding",
+    "host": "localhost",
+    "dialect": "postgresql"
+  }
+}

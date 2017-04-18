@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,600,300);
+
+html { 
+  background: url(/static/images/jefferson-memorial.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+footer {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+footer i {
+    color:#ff0000;
+}
+
+.hero-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    text-shadow:
+        -.5px -.5px 0 white,
+        .5px -.5px 0 white,
+        -.5px .5px 0 white,
+        .5px .5px 0 white;
+
+}
+
+.hero-text.full-page {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #273769;
+    text-shadow: 2px 2px 2px white;
+}
+
+.hero-text h2 {
+    font-size: 40px;
+}
+
+.hero-text p {
+    font-style: italic;
+    font-size: 30px;
+}

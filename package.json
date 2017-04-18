@@ -1,0 +1,43 @@
+{
+  "name": "call-forwarding-node",
+  "version": "1.0.0",
+  "description": "A sample implementation of advanced call forwarding using Twilio and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=express-sequelize node ./bin/www",
+    "migrate": "./node_modules/sequelize-cli/bin/sequelize db:migrate",
+    "seed": "./node_modules/sequelize-cli/bin/sequelize db:seed:all",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "twilio",
+    "node",
+    "express"
+  ],
+  "author": "Samuel Mendes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TwilioDevEd/call-forwarding-node"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "csv-parse": "^1.2.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "mocha": "^3.2.0",
+    "morgan": "^1.8.1",
+    "pug": "^2.0.0-beta11",
+    "sequelize": "^3.30.4",
+    "sequelize-cli": "^2.7.0",
+    "sqlite3": "^3.1.8",
+    "twilio": "^3.0.0-rc.13"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "chai-xml": "^0.3.1",
+    "sequelize-cli": "^2.7.0"
+  }
+}

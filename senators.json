@@ -1,0 +1,160 @@
+{
+    "states": [
+        "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL",
+        "IN","IA","KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT",
+        "NE","NV","NH","NJ","NM","NY","NC","ND","OH","OK","OR","PA","RI",
+        "SC","SD","TN","TX","UT","VT","VA","WA","WV","WI","WY","AS","DC",
+        "FM","GU","MH","MP","PW","PR","VI","AE","AA","AE","AE","AE","AP"
+    ],
+    "AK": [
+        {"name": "Mark Begich", "phone": "+14157671351", "state": "AK"},
+        {"name": "Lisa Murkowski", "phone": "+12174412652", "state": "AK"}],
+    "AL": [
+        {"name": "Jeff Sessions", "phone": "+14157671351", "state": "AL"},
+        {"name": "Richard C. Shelby", "phone": "+12174412652", "state": "AL"}],
+    "AR": [
+        {"name": "John Boozman", "phone": "+14157671351", "state": "AR"},
+        {"name": "Mark L. Pryor", "phone": "+12174412652", "state": "AR"}],
+    "AZ": [
+        {"name": "Jon Kyl", "phone": "+14157671351", "state": "AZ"},
+        {"name": "John McCain", "phone": "+12174412652", "state": "AZ"}],
+    "CA": [
+        {"name": "Barbara Boxer", "phone": "+14157671351", "state": "CA"},
+        {"name": "Dianne Feinstein", "phone": "+12174412652", "state": "CA"}],
+    "CO": [
+        {"name": "Michael F. Bennet", "phone": "+14157671351", "state": "CO"},
+        {"name": "Mark Udall", "phone": "+12174412652", "state": "CO"}],
+    "CT": [
+        {"name": "Richard Blumenthal", "phone": "+14157671351", "state": "CT"},
+        {"name": "Joseph I. Lieberman", "phone": "+12174412652", "state": "CT"}],
+    "DE": [
+        {"name": "Thomas R. Carper", "phone": "+14157671351", "state": "DE"},
+        {"name": "Christopher A. Coons", "phone": "+12174412652", "state": "DE"}],
+    "FL": [
+        {"name": "Bill Nelson", "phone": "+14157671351", "state": "FL"},
+        {"name": "Marco Rubio", "phone": "+12174412652", "state": "FL"}],
+    "GA": [
+        {"name": "Saxby Chambliss", "phone": "+14157671351", "state": "GA"},
+        {"name": "Johnny Isakson", "phone": "+12174412652", "state": "GA"}],
+    "HI": [
+        {"name": "Daniel K. Akaka", "phone": "+14157671351", "state": "HI"},
+        {"name": "Daniel K. Inouye", "phone": "+12174412652", "state": "HI"}],
+    "IA": [
+        {"name": "Chuck Grassley", "phone": "+14157671351", "state": "IA"},
+        {"name": "Tom Harkin", "phone": "+12174412652", "state": "IA"}],
+    "ID": [
+        {"name": "Mike Crapo", "phone": "+14157671351", "state": "ID"},
+        {"name": "James E. Risch", "phone": "+12174412652", "state": "ID"}],
+    "IL": [
+        {"name": "Richard J. Durbin", "phone": "+14157671351", "state": "IL"},
+        {"name": "Tammy Duckworth", "phone": "+12174412652", "state": "IL"}],
+    "IN": [
+        {"name": "Daniel Coats", "phone": "+14157671351", "state": "IN"},
+        {"name": "Richard G. Lugar", "phone": "+12174412652", "state": "IN"}],
+    "KS": [
+        {"name": "Jerry Moran", "phone": "+14157671351", "state": "KS"},
+        {"name": "Pat Roberts", "phone": "+12174412652", "state": "KS"}],
+    "KY": [
+        {"name": "Mitch McConnell", "phone": "+14157671351", "state": "KY"},
+        {"name": "Rand Paul", "phone": "+12174412652", "state": "KY"}],
+    "LA": [
+        {"name": "Mary L. Landrieu", "phone": "+14157671351", "state": "LA"},
+        {"name": "David Vitter", "phone": "+12174412652", "state": "LA"}],
+    "MA": [
+        {"name": "Scott P. Brown", "phone": "+14157671351", "state": "MA"},
+        {"name": "John F. Kerry", "phone": "+12174412652", "state": "MA"}],
+    "MD": [
+        {"name": "Benjamin L. Cardin", "phone": "+14157671351", "state": "MD"},
+        {"name": "Barbara A. Mikulski", "phone": "+12174412652", "state": "MD"}],
+    "ME": [
+        {"name": "Susan M. Collins", "phone": "+14157671351", "state": "ME"},
+        {"name": "Olympia J. Snowe", "phone": "+12174412652", "state": "ME"}],
+    "MI": [
+        {"name": "Carl Levin", "phone": "+14157671351", "state": "MI"},
+        {"name": "Debbie Stabenow", "phone": "+12174412652", "state": "MI"}],
+    "MN": [
+        {"name": "Al Franken", "phone": "+14157671351", "state": "MN"},
+        {"name": "Amy Klobuchar", "phone": "+12174412652", "state": "MN"}],
+    "MO": [
+        {"name": "Roy Blunt", "phone": "+14157671351", "state": "MO"},
+        {"name": "Claire McCaskill", "phone": "+12174412652", "state": "MO"}],
+    "MS": [
+        {"name": "Thad Cochran", "phone": "+14157671351", "state": "MS"},
+        {"name": "Roger F. Wicker", "phone": "+12174412652", "state": "MS"}],
+    "MT": [
+        {"name": "Max Baucus", "phone": "+14157671351", "state": "MT"},
+        {"name": "Jon Tester", "phone": "+12174412652", "state": "MT"}],
+    "NC": [
+        {"name": "Richard Burr", "phone": "+14157671351", "state": "NC"},
+        {"name": "Kay R. Hagan", "phone": "+12174412652", "state": "NC"}],
+    "ND": [
+        {"name": "Kent Conrad", "phone": "+14157671351", "state": "ND"},
+        {"name": "John Hoeven", "phone": "+12174412652", "state": "ND"}],
+    "NE": [
+        {"name": "Mike Johanns", "phone": "+14157671351", "state": "NE"},
+        {"name": "Ben Nelson", "phone": "+12174412652", "state": "NE"}],
+    "NH": [
+        {"name": "Kelly Ayotte", "phone": "+14157671351", "state": "NH"},
+        {"name": "Jeanne Shaheen", "phone": "+12174412652", "state": "NH"}],
+    "NJ": [
+        {"name": "Frank R. Lautenberg", "phone": "+14157671351", "state": "NJ"},
+        {"name": "Robert Menendez", "phone": "+12174412652", "state": "NJ"}],
+    "MN": [
+        {"name": "Jeff Bingaman", "phone": "+14157671351", "state": "NM"},
+        {"name": "Tom Udall", "phone": "+12174412652", "state": "NM"}],
+    "NV": [
+        {"name": "John Ensign", "phone": "+14157671351", "state": "NV"},
+        {"name": "Harry Reid", "phone": "+12174412652", "state": "NV"}],
+    "NY": [
+        {"name": "Kirsten E. Gillibrand", "phone": "+14157671351", "state": "NY"},
+        {"name": "Charles E. Schumer", "phone": "+12174412652", "state": "NY"}],
+    "OH": [
+        {"name": "Sherrod Brown", "phone": "+14157671351", "state": "OH"},
+        {"name": "Rob Portman", "phone": "+12174412652", "state": "OH"}],
+    "OK": [
+        {"name": "Tom Coburn", "phone": "+14157671351", "state": "OK"},
+        {"name": "James M. Inhofe", "phone": "+12174412652", "state": "OK"}],
+    "OR": [
+        {"name": "Jeff Merkley", "phone": "+14157671351", "state": "OR"},
+        {"name": "Ron Wyden", "phone": "+12174412652", "state": "OR"}],
+    "PA": [
+        {"name": "Robert P., Jr. Casey", "phone": "+14157671351", "state": "PA"},
+        {"name": "Patrick J. Toomey", "phone": "+12174412652", "state": "PA"}],
+    "RI": [
+        {"name": "Jack Reed", "phone": "+14157671351", "state": "RI"},
+        {"name": "Sheldon Whitehouse", "phone": "+12174412652", "state": "RI"}],
+    "SC": [
+        {"name": "Jim DeMint", "phone": "+14157671351", "state": "SC"},
+        {"name": "Lindsey Graham", "phone": "+12174412652", "state": "SC"}],
+    "SD": [
+        {"name": "Tim Johnson", "phone": "+14157671351", "state": "SD"},
+        {"name": "John Thune", "phone": "+12174412652", "state": "SD"}],
+    "TN": [
+        {"name": "Lamar Alexander", "phone": "+14157671351", "state": "TN"},
+        {"name": "Bob Corker", "phone": "+12174412652", "state": "TN"}],
+    "TX": [
+        {"name": "John Cornyn", "phone": "+14157671351", "state": "TX"},
+        {"name": "Kay Bailey Hutchison", "phone": "+12174412652", "state": "TX"}],
+    "UT": [
+        {"name": "Orrin G. Hatch", "phone": "+14157671351", "state": "UT"},
+        {"name": "Mike Lee", "phone": "+12174412652", "state": "UT"}],
+    "VA": [
+        {"name": "Mark R. Warner", "phone": "+14157671351", "state": "VA"},
+        {"name": "Jim Webb", "phone": "+12174412652", "state": "VA"}],
+    "VT": [
+        {"name": "Patrick J. Leahy", "phone": "+14157671351", "state": "VT"},
+        {"name": "Bernard Sanders", "phone": "+12174412652", "state": "VT"}],
+    "WA": [
+        {"name": "Maria Cantwell", "phone": "+14157671351", "state": "WA"},
+        {"name": "Patty Murray", "phone": "+12174412652", "state": "WA"}],
+    "WI": [
+        {"name": "Ron Johnson", "phone": "+14157671351", "state": "WI"},
+        {"name": "Herb Kohl", "phone": "+12174412652", "state": "WI"}],
+    "WV": [
+        {"name": "Joe, III Manchin", "phone": "+14157671351", "state": "WV"},
+        {"name": "John D., IV Rockefeller", "phone": "+12174412652", "state": "WV"}],
+    "WY": [
+        {"name": "John Barrasso", "phone": "+14157671351", "state": "WY"},
+        {"name": "Michael B. Enzi", "phone": "+12174412652", "state": "WY"}]
+}
+
