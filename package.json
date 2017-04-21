@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "DEBUG=express-sequelize node ./bin/www",
-    "migrate": "./node_modules/sequelize-cli/bin/sequelize db:migrate",
-    "seed": "./node_modules/sequelize-cli/bin/sequelize db:seed:all",
-    "test": "./node_modules/mocha/bin/mocha"
+    "migrate": "./node_modules/.bin/sequelize db:migrate",
+    "seed": "./node_modules/.bin/sequelize db:seed:all",
+    "test": "./node_modules/.bin/mocha",
+    "lint": "./node_modules/.bin/eslint"
   },
   "keywords": [
     "twilio",
@@ -31,12 +32,18 @@
     "sequelize": "^3.30.4",
     "sequelize-cli": "^2.7.0",
     "sqlite3": "^3.1.8",
-    "twilio": "^3.0.0-rc.16"
+    "twilio": "^3.0.0-rc.16",
+    "xml2js": "^0.4.17"
   },
   "devDependencies": {
-    "mocha": "^3.2.0",
     "chai": "^3.5.0",
     "chai-http": "^3.0.0",
-    "chai-xml": "^0.3.1"
+    "chai-xml": "^0.3.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "mocha": "^3.2.0"
   }
 }

@@ -1,14 +1,14 @@
-'use strict';
-module.exports = function(sequelize, DataTypes) {
-  var State = sequelize.define('State', {
+module.exports = (sequelize, DataTypes) => {
+  const State = sequelize.define('State', {
     name: DataTypes.STRING
   }, {
     timestamps: false,
     classMethods: {
-      associate: function(models) {
+      associate: (models) => {
         State.hasMany(models.Senator);
       }
     }
   });
+
   return State;
 };

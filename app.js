@@ -1,5 +1,3 @@
-'use strict';
-
 require('dotenv').config();
 
 const express = require('express');
@@ -8,12 +6,13 @@ const path = require('path');
 const urlencoded = require('body-parser').urlencoded;
 
 const routes = require('./routes/index');
+
 const app = express();
 
-// View engine setup
+// Setup view engine
 app.set('view engine', 'pug');
 
-// Application setup
+// Setup application
 app.use(urlencoded({ extended: true }));
 app.use(morgan('combined'));
 app.use(express.static(path.join(__dirname, 'public')));
