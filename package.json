@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "DEBUG=express-sequelize node ./bin/www",
-    "migrate": "./node_modules/sequelize-cli/bin/sequelize db:migrate",
-    "seed": "./node_modules/sequelize-cli/bin/sequelize db:seed:all",
-    "test": "./node_modules/mocha/bin/mocha"
+    "migrate": "./node_modules/.bin/sequelize db:migrate",
+    "seed": "./node_modules/.bin/sequelize db:seed:all",
+    "test": "./node_modules/.bin/mocha"
   },
   "keywords": [
     "twilio",
