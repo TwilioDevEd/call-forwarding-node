@@ -15,26 +15,23 @@ router.post('/callcongress/welcome', (req, res) => {
   const fromState = req.body.FromState;
 
   if (fromState) {
-    response.gather({
+    const gather = response.gather({
       numDigits: 1,
       action: '/callcongress/set-state',
-      method: 'POST',
-      fromState: fromState
-    }, (node) => {
-      node.say("Thank you for calling congress! It looks like " +
+      method: 'POST'
+    });
+    gather.say("Thank you for calling congress! It looks like " +
                "you're calling from " + fromState + "." +
                "If this is correct, please press 1. Press 2 if " +
                "this is not your current state of residence.");
-    });
   } else {
-    response.gather({
+    const gather = response.gather({
       numDigits: 5,
       action: '/callcongress/state-lookup',
       method: 'POST'
-    }, (node) => {
-      node.say('Thank you for calling Call Congress! If you wish to' +
-               'call your senators, please enter your 5-digit zip code.');
     });
+    gather.say('Thank you for calling Call Congress! If you wish to' +
+               'call your senators, please enter your 5-digit zip code.');
   }
   res.set('Content-Type', 'text/xml');
   res.send(response.toString());
@@ -64,15 +61,13 @@ router.post('/callcongress/state-lookup', (req, res) => {
 // If our state guess is wrong, prompt user for zip code.
 router.get('/callcongress/collect-zip', (req, res) => {
   const response = new twilio.twiml.VoiceResponse();
-  response.gather({
+  const gather = response.gather({
       numDigits: 5,
       action: '/callcongress/state-lookup',
       method: 'POST'
-    }, (node) => {
-      node.say('If you wish to call your senators, please ' +
-               'enter your 5-digit zip code.');
-    }
-  );
+    });
+  gather.say('If you wish to call your senators, please ' +
+              'enter your 5-digit zip code.');
   res.set('Content-Type', 'text/xml');
   res.send(response.toString());
 });
