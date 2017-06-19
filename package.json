@@ -4,7 +4,7 @@
   "description": "A sample implementation of advanced call forwarding using Twilio and Express",
   "main": "index.js",
   "scripts": {
-    "start": "DEBUG=express-sequelize node ./bin/www",
+    "start": "node ./bin/www",
     "migrate": "./node_modules/.bin/sequelize db:migrate",
     "seed": "./node_modules/.bin/sequelize db:seed:all",
     "test": "./node_modules/.bin/mocha"
