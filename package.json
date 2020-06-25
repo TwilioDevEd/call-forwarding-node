@@ -29,7 +29,7 @@
     "morgan": "^1.8.1",
     "pug": "^2.0.0-beta11",
     "sequelize": "^3.30.4",
-    "sequelize-cli": "^2.7.0",
+    "sequelize-cli": "^6.0.0",
     "sqlite3": "^3.1.8",
     "twilio": "^3.0.0-rc.16"
   },
