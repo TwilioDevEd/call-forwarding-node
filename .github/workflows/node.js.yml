@@ -32,4 +32,6 @@ jobs:
 
       - name: Install Dependencies
         run: yarn install
+      - run: yarn migrate
+      - run: yarn seed
       - run: yarn test
