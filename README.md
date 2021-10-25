@@ -4,7 +4,7 @@
 
 # Advanced Call Forwarding with Node and Express
 
-[![Build status](https://api.travis-ci.org/TwilioDevEd/call-forwarding-node.svg?branch=master)](https://travis-ci.org/TwilioDevEd/call-forwarding-node)
+[![Node.js CI](https://github.com/TwilioDevEd/call-forwarding-node/actions/workflows/node.js.yml/badge.svg)](https://github.com/TwilioDevEd/call-forwarding-node/actions/workflows/node.js.yml)
 
 Learn how to use [Twilio](https://www.twilio.com) to forward a series of phone
 calls to your state senators.

@@ -56,10 +56,6 @@ describe('CallForwarding', function() {
               'Response.Gather[0].$.action',
               '/callcongress/set-state'
             );
-            expect(result).to.have.deep.property(
-              'Response.Gather[0].$.fromState',
-              'IL'
-            );
           });
           done();
         }
