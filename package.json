@@ -31,7 +31,7 @@
     "sequelize": "^3.30.4",
     "sequelize-cli": "^6.2.0",
     "sqlite3": "^4.0.9",
-    "twilio": "^3.0.0-rc.16"
+    "twilio": "^4.8.0"
   },
   "devDependencies": {
     "mocha": "^3.2.0",
