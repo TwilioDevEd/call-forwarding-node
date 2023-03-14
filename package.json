@@ -30,7 +30,7 @@
     "pug": "^2.0.0-beta11",
     "sequelize": "^3.30.4",
     "sequelize-cli": "^6.2.0",
-    "sqlite3": "^4.0.9",
+    "sqlite3": "^5.1.6",
     "twilio": "^3.0.0-rc.16"
   },
   "devDependencies": {
